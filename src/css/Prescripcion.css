@@ -1,0 +1,84 @@
+.Prescripcion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Prescripcion .inputs{
+    align-self: flex-start;
+}
+
+.Prescripcion .inputs p {
+    margin: 1em 0;
+    width: 400px;
+}
+
+.inputText {
+    width: 80%;
+    border: 0;
+    border-bottom: 1px solid #76787b;
+    outline: none;
+}
+
+.inputText1:focus {
+    border-bottom: 2px solid #33bdec;
+}
+
+.inputText2:focus {
+    border-bottom: 2px solid #5bc0a4;
+}
+
+.inputText3:focus {
+    border-bottom: 2px solid #c3b632;
+}
+
+.inputText4:focus {
+    border-bottom: 2px solid #5683c3;
+}
+
+.inputText5:focus {
+    border-bottom: 2px solid #d52027;
+}
+
+.Prescripcion button {
+    padding: 0.5em;
+    font-weight: bold;
+    font-size: 1.3em;
+    width: 8em;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.Prescripcion button:hover{
+    transform: scale(1.03);
+}
+
+button.btn1 {
+    background: #33bdec;
+}
+
+button.btn2 {
+    background: #5bc0a4;
+}
+
+button.btn3 {
+    background: #c3b632;
+}
+
+button.btn4 {
+    background: #5683c3;
+}
+
+button.btn5 {
+    background: #d52027;
+}
+
+@media only screen and (max-width: 480px) {
+    .Prescripcion .inputs p {
+        width: 100%;
+    }
+}
